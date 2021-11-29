@@ -25,7 +25,7 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
- 
+
 #
 # Function to start sensors for SSC enabled platforms
 #
@@ -39,5 +39,5 @@ start_sensors()
     chmod -h 664 /persist/sensors/sensors_settings
     chown -h -R system.system /persist/sensors
 }
- 
+
 start_sensors
