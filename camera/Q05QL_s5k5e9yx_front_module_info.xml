@@ -2,7 +2,7 @@
 
 <moduleinfo>
 
-	<coreversion value="N"/>
+	<coreversion value="Q"/>
 
 	<resolution value="05"/>
 
@@ -10,13 +10,13 @@
 
 	<sensormaker value="L"/>
 
-	<year value="K"/>
+	<year value="L"/>
 
-	<month value="D"/>
+	<month value="A"/>
 
 	<iteration value="01"/>
 
-	<modulemaker value="N"/>
+	<modulemaker value="H"/>
 
 	<modulemakerversion value="A"/>
 
