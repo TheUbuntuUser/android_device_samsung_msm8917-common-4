@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service.msm8917 \
     Snap
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
