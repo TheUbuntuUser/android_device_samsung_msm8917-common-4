@@ -16,7 +16,3 @@ PRODUCT_PACKAGES += logger
 # /vendor and /system so /system/bin/dlopener cant open vendor libs and vice versa
 
 PRODUCT_PACKAGES += dlopener dlopener.vendor
-
-# System calls - ptrace
-
-PRODUCT_PACKAGES += strace
