@@ -39,10 +39,11 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.health</name>
-        <version>2.1</version>
+        <version>2.0</version>
         <interface>
             <name>IHealth</name>
             <instance>default</instance>
+            <instance>exthealth</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -449,6 +450,14 @@
         <interface>
             <name>ISecCameraProvider</name>
             <instance>legacy/0</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.exthealth</name>
+        <version>1.0</version>
+        <interface>
+            <name>IExtHealth</name>
+            <instance>exthealth</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
